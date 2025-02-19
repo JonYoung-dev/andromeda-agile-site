@@ -1,0 +1,36 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.social-media {
+  margin-left: 20rem;
+}
+
+button {
+  background-color: #fda202;
+  border-color: #fda202;
+  border-radius: 5px;
+  height: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #a202fd;
+  border-color: #a202fd;
+}
+
+input {
+  border-radius: 5px;
+  height: 26px;
+}
