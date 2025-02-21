@@ -62,3 +62,6 @@ button:hover {
   gap: 20px;
 }
 
+.recent-post-image {
+  width: 300px;
+}
