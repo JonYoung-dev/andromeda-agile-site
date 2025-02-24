@@ -1,6 +1,6 @@
 #hero {
-    width: 90%;
-    height: 100vh;
+    width: 100%;
+    height: 95vh;
     display: flex;
     margin: auto;
     background-image: url("https://picsum.photos/3000/2000");
@@ -14,32 +14,38 @@
 
     .featured-block {
         flex-basis: 50%;
-        height: 40vh;
+        min-height: 50%;
         border-radius: 1rem;
         padding: 2rem;
-        background-color: #ffffff81;
-        display: grid;
-        grid-template-columns: 1fr 3fr;
+        background-color: #ffffffbc;
+        display: flex;
+
+        /* grid-template-columns: 1fr 3fr; */
+        flex-direction: row;
         gap: 1.5rem;
         font-size: 1.2rem;
 
-        height: 200px;
-        max-width: 700px;
-
         img {
             display: block;
+            min-width: 40%;
+            object-fit: contain;
+            flex-basis: 30%;
+        }
+         
+        .recipe-details {
+            flex-basis: 70%;
         }
         
         h2 {
             margin: 0;
-            font-size: 1.8rem;
+            font-size: 1.5vw;
         }
     }
 
     h1 {
         font-size: 15vh;
         color: white;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
     
     .cta-hero-button {
@@ -51,6 +57,7 @@
     
     .featured-button-wrapper {
         text-align: right;
+        margin-top: 1rem;
     }
     .featured-button {
         text-decoration: none;
