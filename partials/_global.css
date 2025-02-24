@@ -62,3 +62,22 @@ button:hover {
   gap: 20px;
 }
 
+.news-image {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-image:hover {
+  transform: scale(1.02);
+}
+
+.recent-post-image {
+  width: 300px;
+}
+
