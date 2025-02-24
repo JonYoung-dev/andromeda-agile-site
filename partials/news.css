@@ -13,4 +13,10 @@
     .news {
         margin-right: 2rem;
     }
+
+    .news-author-div {
+        margin-top: 1rem;
+        display: flex;
+        flex-flow: row nowrap;
+    }
 }
