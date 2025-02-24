@@ -3,7 +3,7 @@
     height: 95vh;
     display: flex;
     margin: auto;
-    background-image: url("https://picsum.photos/3000/2000");
+    background-image: url("/assets/hero-section.jpeg");
     justify-content: center;
     padding: 4rem;
     align-items: center;
