@@ -1,0 +1,16 @@
+#news {
+    margin: 5rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#recent-news-container {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    padding-bottom: 1rem;
+
+    .news {
+        margin-right: 2rem;
+    }
+}
